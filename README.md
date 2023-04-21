@@ -30,7 +30,9 @@ $ ./clean.sh
 
 ## Self Example
 
-![Screenshot](./example.jpg)
+<p align="center">
+  <img src="./example.jpg" width="300" title="Screenshot">
+</p>
 
 ## 📝 Notas
 
