@@ -1,4 +1,4 @@
-# TypeScript Example
+# Example use expo-face-detector
 
 <p>
   <!-- iOS -->
@@ -9,28 +9,29 @@
   <img alt="Supports Expo Web" longdesc="Supports Expo Web" src="https://img.shields.io/badge/web-4630EB.svg?style=flat-square&logo=GOOGLE-CHROME&labelColor=4285F4&logoColor=fff" />
 </p>
 
-```sh
-npx create-react-native-app -t with-typescript
+Breve estrutura, afim testar a Lib expo-face-detector.
+
+## 🚀 Init
+
+```bash
+$ yarn install
+$ yarn build-android
 ```
 
-TypeScript is a superset of JavaScript which gives you static types and powerful tooling in Visual Studio Code including autocompletion and useful inline warnings for type errors.
+## 🪧 HELP
 
-## 🚀 How to use
+**Se instalou alguma Lib complementar e está tendo problemas com cache, execute:**
 
-#### Creating a new project
+```bash
+$ ./clean.sh
+```
 
-- Install the CLI: `npm i -g expo-cli`
-- Create a project: `npx create-react-native-app -t with-typescript`
-- `cd` into the project
+**E rode novamente os comandos de inicialização**
 
-### Adding TypeScript to existing projects
+## Self Example
 
-- Create a blank TypeScript config: `touch tsconfig.json`
-- Run `yarn start` or `npm run start` to automatically configure TypeScript
-- Rename files to TypeScript, `.tsx` for React components and `.ts` for plain typescript files
+![Screenshot](./example.jpg)
 
-> 💡 You can disable the TypeScript setup in Expo CLI with the environment variable `EXPO_NO_TYPESCRIPT_SETUP=1 expo start`
-
-## 📝 Notes
+## 📝 Notas
 
 - [Expo TypeScript guide](https://docs.expo.dev/versions/latest/guides/typescript/)
