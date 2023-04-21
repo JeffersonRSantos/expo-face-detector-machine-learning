@@ -1,24 +1,41 @@
 {
   "dependencies": {
-    "expo": "^48.0.7",
+    "@react-native-async-storage/async-storage": "^1.18.1",
+    "@tensorflow-models/mobilenet": "^2.1.0",
+    "@types/react-native-canvas": "^0.1.9",
+    "expo": "~48.0.11",
+    "expo-camera": "^13.2.1",
+    "expo-face-detector": "^12.1.1",
+    "expo-gl": "~12.4.0",
+    "expo-splash-screen": "~0.18.1",
+    "expo-status-bar": "~1.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.71.3",
-    "react-native-web": "~0.18.7"
+    "react-native": "0.71.6",
+    "react-native-fs": "^2.20.0",
+    "react-native-web": "~0.18.7",
+    "react-native-webview": "^12.0.2",
+    "styled-components": "^5.3.9"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@types/react": "~18.0.24",
     "@types/react-native": "~0.70.6",
+    "@types/styled-components": "^5.1.26",
     "typescript": "^4.6.3"
   },
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "build-eas": "eas build",
+    "build-android": "expo run:android"
   },
   "version": "1.0.0",
   "private": true,
-  "name": "face-detector-app"
+  "name": "face-detector-app",
+  "resolutions": {
+    "styled-components": "^5"
+  }
 }

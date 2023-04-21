@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "face-detector-app",
+    "slug": "face-detector-app",
+    "author": "jeffersonRSantos",
+    "version": "1.0.0",
+    "sdkVersion": "48.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.jeffersonprodev.facedetectorapp",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a90a92ab-2742-4228-897b-4a00c62a6f95"
+      }
+    }
+  }
+}
