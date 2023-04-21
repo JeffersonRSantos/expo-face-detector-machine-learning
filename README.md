@@ -11,7 +11,7 @@
 
 Breve estrutura, afim testar a Lib expo-face-detector.
 
-Mais detalhes sobre a Lib -> ![url](https://docs.expo.dev/versions/latest/sdk/facedetector/)
+Mais detalhes sobre a Lib -> [https://docs.expo.dev/versions/latest/sdk/facedetector/](https://docs.expo.dev/versions/latest/sdk/facedetector/)
 
 ## 🚀 Init
 
