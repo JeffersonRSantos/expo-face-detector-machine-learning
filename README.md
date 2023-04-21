@@ -11,12 +11,15 @@
 
 Breve estrutura, afim testar a Lib expo-face-detector.
 
+Mais detalhes sobre a Lib -> ![url](https://docs.expo.dev/versions/latest/sdk/facedetector/)
+
 ## 🚀 Init
 
 ```bash
 $ yarn install
 $ yarn build-android
 ```
+
 
 ## 🪧 HELP
 
